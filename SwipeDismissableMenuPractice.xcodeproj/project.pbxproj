@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42B25DC5AF3D2D5CF4BD6E9D /* Pods_SwipeDismissableMenuPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B467B48CA8F5683FB18B0E7 /* Pods_SwipeDismissableMenuPractice.framework */; };
+		4527EB971FC561D30062A0B7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527EB961FC561D30062A0B7 /* MenuViewController.swift */; };
+		4561A05B1FC55EEB004C776D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561A05A1FC55EEB004C776D /* AppDelegate.swift */; };
+		4561A05D1FC55EEB004C776D /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561A05C1FC55EEB004C776D /* CenterViewController.swift */; };
+		4561A0601FC55EEB004C776D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4561A05E1FC55EEB004C776D /* Main.storyboard */; };
+		4561A0621FC55EEB004C776D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4561A0611FC55EEB004C776D /* Assets.xcassets */; };
+		4561A0651FC55EEB004C776D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4561A0631FC55EEB004C776D /* LaunchScreen.storyboard */; };
+		4561A0701FC55EEB004C776D /* SwipeDismissableMenuPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561A06F1FC55EEB004C776D /* SwipeDismissableMenuPracticeTests.swift */; };
+		4561A07B1FC55EEB004C776D /* SwipeDismissableMenuPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561A07A1FC55EEB004C776D /* SwipeDismissableMenuPracticeUITests.swift */; };
+		4561A0891FC55FEC004C776D /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561A0881FC55FEC004C776D /* ContainerViewController.swift */; };
+		C2574FB5BE62F8ACFFA77A94 /* Pods_SwipeDismissableMenuPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577591E1595F18CC574BC775 /* Pods_SwipeDismissableMenuPracticeTests.framework */; };
+		E8ACCDF0AAC157F1C1E5160D /* Pods_SwipeDismissableMenuPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3B6F96A5194759CDC2EE56 /* Pods_SwipeDismissableMenuPracticeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4561A06C1FC55EEB004C776D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4561A04F1FC55EEB004C776D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4561A0561FC55EEB004C776D;
+			remoteInfo = SwipeDismissableMenuPractice;
+		};
+		4561A0771FC55EEB004C776D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4561A04F1FC55EEB004C776D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4561A0561FC55EEB004C776D;
+			remoteInfo = SwipeDismissableMenuPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CB91C0A83EF894F7E6FA7BC /* Pods-SwipeDismissableMenuPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeDismissableMenuPracticeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeDismissableMenuPracticeTests/Pods-SwipeDismissableMenuPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		3EF18FDBD71AF38E798B43E8 /* Pods-SwipeDismissableMenuPracticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeDismissableMenuPracticeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeDismissableMenuPracticeUITests/Pods-SwipeDismissableMenuPracticeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4527EB961FC561D30062A0B7 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4561A0571FC55EEB004C776D /* SwipeDismissableMenuPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeDismissableMenuPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4561A05A1FC55EEB004C776D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4561A05C1FC55EEB004C776D /* CenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		4561A05F1FC55EEB004C776D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4561A0611FC55EEB004C776D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4561A0641FC55EEB004C776D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4561A0661FC55EEB004C776D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4561A06B1FC55EEB004C776D /* SwipeDismissableMenuPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeDismissableMenuPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4561A06F1FC55EEB004C776D /* SwipeDismissableMenuPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeDismissableMenuPracticeTests.swift; sourceTree = "<group>"; };
+		4561A0711FC55EEB004C776D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4561A0761FC55EEB004C776D /* SwipeDismissableMenuPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeDismissableMenuPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4561A07A1FC55EEB004C776D /* SwipeDismissableMenuPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeDismissableMenuPracticeUITests.swift; sourceTree = "<group>"; };
+		4561A07C1FC55EEB004C776D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4561A0881FC55FEC004C776D /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		577591E1595F18CC574BC775 /* Pods_SwipeDismissableMenuPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeDismissableMenuPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6445006E4401F19ACCF9D105 /* Pods-SwipeDismissableMenuPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeDismissableMenuPracticeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeDismissableMenuPracticeTests/Pods-SwipeDismissableMenuPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B467B48CA8F5683FB18B0E7 /* Pods_SwipeDismissableMenuPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeDismissableMenuPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		888B637013EBFDBBE5A48C5E /* Pods-SwipeDismissableMenuPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeDismissableMenuPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeDismissableMenuPractice/Pods-SwipeDismissableMenuPractice.release.xcconfig"; sourceTree = "<group>"; };
+		8B7D8447971F659EA0EAE198 /* Pods-SwipeDismissableMenuPracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeDismissableMenuPracticeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeDismissableMenuPracticeUITests/Pods-SwipeDismissableMenuPracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF3B6F96A5194759CDC2EE56 /* Pods_SwipeDismissableMenuPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeDismissableMenuPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8144E8D5B5744B26603E9FC /* Pods-SwipeDismissableMenuPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeDismissableMenuPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeDismissableMenuPractice/Pods-SwipeDismissableMenuPractice.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4561A0541FC55EEB004C776D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B25DC5AF3D2D5CF4BD6E9D /* Pods_SwipeDismissableMenuPractice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561A0681FC55EEB004C776D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2574FB5BE62F8ACFFA77A94 /* Pods_SwipeDismissableMenuPracticeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561A0731FC55EEB004C776D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8ACCDF0AAC157F1C1E5160D /* Pods_SwipeDismissableMenuPracticeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E7E09CF71C6631BE9BA8DBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8144E8D5B5744B26603E9FC /* Pods-SwipeDismissableMenuPractice.debug.xcconfig */,
+				888B637013EBFDBBE5A48C5E /* Pods-SwipeDismissableMenuPractice.release.xcconfig */,
+				6445006E4401F19ACCF9D105 /* Pods-SwipeDismissableMenuPracticeTests.debug.xcconfig */,
+				3CB91C0A83EF894F7E6FA7BC /* Pods-SwipeDismissableMenuPracticeTests.release.xcconfig */,
+				8B7D8447971F659EA0EAE198 /* Pods-SwipeDismissableMenuPracticeUITests.debug.xcconfig */,
+				3EF18FDBD71AF38E798B43E8 /* Pods-SwipeDismissableMenuPracticeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4561A04E1FC55EEB004C776D = {
+			isa = PBXGroup;
+			children = (
+				4561A0591FC55EEB004C776D /* SwipeDismissableMenuPractice */,
+				4561A06E1FC55EEB004C776D /* SwipeDismissableMenuPracticeTests */,
+				4561A0791FC55EEB004C776D /* SwipeDismissableMenuPracticeUITests */,
+				4561A0581FC55EEB004C776D /* Products */,
+				2E7E09CF71C6631BE9BA8DBD /* Pods */,
+				EE651C9BBDD26C1A48C3FA44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4561A0581FC55EEB004C776D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4561A0571FC55EEB004C776D /* SwipeDismissableMenuPractice.app */,
+				4561A06B1FC55EEB004C776D /* SwipeDismissableMenuPracticeTests.xctest */,
+				4561A0761FC55EEB004C776D /* SwipeDismissableMenuPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4561A0591FC55EEB004C776D /* SwipeDismissableMenuPractice */ = {
+			isa = PBXGroup;
+			children = (
+				4561A05A1FC55EEB004C776D /* AppDelegate.swift */,
+				4561A05C1FC55EEB004C776D /* CenterViewController.swift */,
+				4561A05E1FC55EEB004C776D /* Main.storyboard */,
+				4561A0611FC55EEB004C776D /* Assets.xcassets */,
+				4561A0631FC55EEB004C776D /* LaunchScreen.storyboard */,
+				4561A0661FC55EEB004C776D /* Info.plist */,
+				4561A0881FC55FEC004C776D /* ContainerViewController.swift */,
+				4527EB961FC561D30062A0B7 /* MenuViewController.swift */,
+			);
+			path = SwipeDismissableMenuPractice;
+			sourceTree = "<group>";
+		};
+		4561A06E1FC55EEB004C776D /* SwipeDismissableMenuPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4561A06F1FC55EEB004C776D /* SwipeDismissableMenuPracticeTests.swift */,
+				4561A0711FC55EEB004C776D /* Info.plist */,
+			);
+			path = SwipeDismissableMenuPracticeTests;
+			sourceTree = "<group>";
+		};
+		4561A0791FC55EEB004C776D /* SwipeDismissableMenuPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4561A07A1FC55EEB004C776D /* SwipeDismissableMenuPracticeUITests.swift */,
+				4561A07C1FC55EEB004C776D /* Info.plist */,
+			);
+			path = SwipeDismissableMenuPracticeUITests;
+			sourceTree = "<group>";
+		};
+		EE651C9BBDD26C1A48C3FA44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B467B48CA8F5683FB18B0E7 /* Pods_SwipeDismissableMenuPractice.framework */,
+				577591E1595F18CC574BC775 /* Pods_SwipeDismissableMenuPracticeTests.framework */,
+				AF3B6F96A5194759CDC2EE56 /* Pods_SwipeDismissableMenuPracticeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4561A0561FC55EEB004C776D /* SwipeDismissableMenuPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4561A07F1FC55EEB004C776D /* Build configuration list for PBXNativeTarget "SwipeDismissableMenuPractice" */;
+			buildPhases = (
+				A2BE0A9B656FCA39E05D3839 /* [CP] Check Pods Manifest.lock */,
+				4561A0531FC55EEB004C776D /* Sources */,
+				4561A0541FC55EEB004C776D /* Frameworks */,
+				4561A0551FC55EEB004C776D /* Resources */,
+				9E5CDDAA8DBB29C3440E9E14 /* [CP] Embed Pods Frameworks */,
+				F2F538DA2B6824B83DE0F8D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeDismissableMenuPractice;
+			productName = SwipeDismissableMenuPractice;
+			productReference = 4561A0571FC55EEB004C776D /* SwipeDismissableMenuPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4561A06A1FC55EEB004C776D /* SwipeDismissableMenuPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4561A0821FC55EEB004C776D /* Build configuration list for PBXNativeTarget "SwipeDismissableMenuPracticeTests" */;
+			buildPhases = (
+				12B3F6BC140535A207E34461 /* [CP] Check Pods Manifest.lock */,
+				4561A0671FC55EEB004C776D /* Sources */,
+				4561A0681FC55EEB004C776D /* Frameworks */,
+				4561A0691FC55EEB004C776D /* Resources */,
+				C88ABF8CEBA152E0253BBC67 /* [CP] Embed Pods Frameworks */,
+				559F48DB1E087A83F881FBE3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4561A06D1FC55EEB004C776D /* PBXTargetDependency */,
+			);
+			name = SwipeDismissableMenuPracticeTests;
+			productName = SwipeDismissableMenuPracticeTests;
+			productReference = 4561A06B1FC55EEB004C776D /* SwipeDismissableMenuPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4561A0751FC55EEB004C776D /* SwipeDismissableMenuPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4561A0851FC55EEB004C776D /* Build configuration list for PBXNativeTarget "SwipeDismissableMenuPracticeUITests" */;
+			buildPhases = (
+				E10083B3F12EAFE30C7EA9D4 /* [CP] Check Pods Manifest.lock */,
+				4561A0721FC55EEB004C776D /* Sources */,
+				4561A0731FC55EEB004C776D /* Frameworks */,
+				4561A0741FC55EEB004C776D /* Resources */,
+				A106740B4695ACA31A63C3C4 /* [CP] Embed Pods Frameworks */,
+				45BED94E8F54DBF2C6A09F68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4561A0781FC55EEB004C776D /* PBXTargetDependency */,
+			);
+			name = SwipeDismissableMenuPracticeUITests;
+			productName = SwipeDismissableMenuPracticeUITests;
+			productReference = 4561A0761FC55EEB004C776D /* SwipeDismissableMenuPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4561A04F1FC55EEB004C776D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Keisei Saito";
+				TargetAttributes = {
+					4561A0561FC55EEB004C776D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZLP777QDS4;
+						ProvisioningStyle = Automatic;
+					};
+					4561A06A1FC55EEB004C776D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZLP777QDS4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4561A0561FC55EEB004C776D;
+					};
+					4561A0751FC55EEB004C776D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZLP777QDS4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4561A0561FC55EEB004C776D;
+					};
+				};
+			};
+			buildConfigurationList = 4561A0521FC55EEB004C776D /* Build configuration list for PBXProject "SwipeDismissableMenuPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4561A04E1FC55EEB004C776D;
+			productRefGroup = 4561A0581FC55EEB004C776D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4561A0561FC55EEB004C776D /* SwipeDismissableMenuPractice */,
+				4561A06A1FC55EEB004C776D /* SwipeDismissableMenuPracticeTests */,
+				4561A0751FC55EEB004C776D /* SwipeDismissableMenuPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4561A0551FC55EEB004C776D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4561A0651FC55EEB004C776D /* LaunchScreen.storyboard in Resources */,
+				4561A0621FC55EEB004C776D /* Assets.xcassets in Resources */,
+				4561A0601FC55EEB004C776D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561A0691FC55EEB004C776D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561A0741FC55EEB004C776D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12B3F6BC140535A207E34461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeDismissableMenuPracticeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45BED94E8F54DBF2C6A09F68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeDismissableMenuPracticeUITests/Pods-SwipeDismissableMenuPracticeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		559F48DB1E087A83F881FBE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeDismissableMenuPracticeTests/Pods-SwipeDismissableMenuPracticeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5CDDAA8DBB29C3440E9E14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwipeDismissableMenuPractice/Pods-SwipeDismissableMenuPractice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeDismissableMenuPractice/Pods-SwipeDismissableMenuPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A106740B4695ACA31A63C3C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeDismissableMenuPracticeUITests/Pods-SwipeDismissableMenuPracticeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2BE0A9B656FCA39E05D3839 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeDismissableMenuPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C88ABF8CEBA152E0253BBC67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeDismissableMenuPracticeTests/Pods-SwipeDismissableMenuPracticeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E10083B3F12EAFE30C7EA9D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeDismissableMenuPracticeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F538DA2B6824B83DE0F8D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeDismissableMenuPractice/Pods-SwipeDismissableMenuPractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4561A0531FC55EEB004C776D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4561A05D1FC55EEB004C776D /* CenterViewController.swift in Sources */,
+				4561A0891FC55FEC004C776D /* ContainerViewController.swift in Sources */,
+				4561A05B1FC55EEB004C776D /* AppDelegate.swift in Sources */,
+				4527EB971FC561D30062A0B7 /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561A0671FC55EEB004C776D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4561A0701FC55EEB004C776D /* SwipeDismissableMenuPracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4561A0721FC55EEB004C776D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4561A07B1FC55EEB004C776D /* SwipeDismissableMenuPracticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4561A06D1FC55EEB004C776D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4561A0561FC55EEB004C776D /* SwipeDismissableMenuPractice */;
+			targetProxy = 4561A06C1FC55EEB004C776D /* PBXContainerItemProxy */;
+		};
+		4561A0781FC55EEB004C776D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4561A0561FC55EEB004C776D /* SwipeDismissableMenuPractice */;
+			targetProxy = 4561A0771FC55EEB004C776D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4561A05E1FC55EEB004C776D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4561A05F1FC55EEB004C776D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4561A0631FC55EEB004C776D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4561A0641FC55EEB004C776D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4561A07D1FC55EEB004C776D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4561A07E1FC55EEB004C776D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4561A0801FC55EEB004C776D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8144E8D5B5744B26603E9FC /* Pods-SwipeDismissableMenuPractice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZLP777QDS4;
+				INFOPLIST_FILE = SwipeDismissableMenuPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miraitoarumachi.SwipeDismissableMenuPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4561A0811FC55EEB004C776D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 888B637013EBFDBBE5A48C5E /* Pods-SwipeDismissableMenuPractice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZLP777QDS4;
+				INFOPLIST_FILE = SwipeDismissableMenuPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miraitoarumachi.SwipeDismissableMenuPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4561A0831FC55EEB004C776D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6445006E4401F19ACCF9D105 /* Pods-SwipeDismissableMenuPracticeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZLP777QDS4;
+				INFOPLIST_FILE = SwipeDismissableMenuPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miraitoarumachi.SwipeDismissableMenuPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeDismissableMenuPractice.app/SwipeDismissableMenuPractice";
+			};
+			name = Debug;
+		};
+		4561A0841FC55EEB004C776D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB91C0A83EF894F7E6FA7BC /* Pods-SwipeDismissableMenuPracticeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZLP777QDS4;
+				INFOPLIST_FILE = SwipeDismissableMenuPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miraitoarumachi.SwipeDismissableMenuPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeDismissableMenuPractice.app/SwipeDismissableMenuPractice";
+			};
+			name = Release;
+		};
+		4561A0861FC55EEB004C776D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7D8447971F659EA0EAE198 /* Pods-SwipeDismissableMenuPracticeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZLP777QDS4;
+				INFOPLIST_FILE = SwipeDismissableMenuPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miraitoarumachi.SwipeDismissableMenuPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwipeDismissableMenuPractice;
+			};
+			name = Debug;
+		};
+		4561A0871FC55EEB004C776D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF18FDBD71AF38E798B43E8 /* Pods-SwipeDismissableMenuPracticeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZLP777QDS4;
+				INFOPLIST_FILE = SwipeDismissableMenuPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miraitoarumachi.SwipeDismissableMenuPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwipeDismissableMenuPractice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4561A0521FC55EEB004C776D /* Build configuration list for PBXProject "SwipeDismissableMenuPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4561A07D1FC55EEB004C776D /* Debug */,
+				4561A07E1FC55EEB004C776D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4561A07F1FC55EEB004C776D /* Build configuration list for PBXNativeTarget "SwipeDismissableMenuPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4561A0801FC55EEB004C776D /* Debug */,
+				4561A0811FC55EEB004C776D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4561A0821FC55EEB004C776D /* Build configuration list for PBXNativeTarget "SwipeDismissableMenuPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4561A0831FC55EEB004C776D /* Debug */,
+				4561A0841FC55EEB004C776D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4561A0851FC55EEB004C776D /* Build configuration list for PBXNativeTarget "SwipeDismissableMenuPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4561A0861FC55EEB004C776D /* Debug */,
+				4561A0871FC55EEB004C776D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4561A04F1FC55EEB004C776D /* Project object */;
+}
